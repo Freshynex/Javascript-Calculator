@@ -1,0 +1,28 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.maincontainer{
+    display:grid;
+    width:100vw;
+    height:100vh;
+    padding: 0;
+    margin: 0;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: rgb(216, 180, 133);
+}
+
+.calculatorbody{
+    height: 40em;
+    width: 30em;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    border-radius: 25px;
+    justify-self: center;
+    align-self: center;
+    background-color: rgb(60, 170, 97);
+    display: grid;
+
+}
