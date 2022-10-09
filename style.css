@@ -15,6 +15,7 @@ body{
 }
 
 .calculatorbody{
+    padding: 5%;
     height: 40em;
     width: 30em;
     grid-row-start: 2;
@@ -24,5 +25,35 @@ body{
     align-self: center;
     background-color: rgb(60, 170, 97);
     display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
 
+}
+
+.displayfield{
+    background-color: dimgrey;
+    grid-column: 1 / span 5;
+    border-radius: 15px;
+}
+
+.calcbtn{
+    min-height: 2em;
+    max-height: 10em;
+    min-width: 2em;
+    background-color: rgb(197, 180, 224);
+    border-radius: 25px;
+    margin: 0.5em;
+}
+
+.calcbtn.-btn{
+    grid-column-start: 5;
+}
+
+.calcbtn.multbtn{
+    grid-column-start: 5;
+
+}
+
+.calcbtn.divbtn{
+    grid-column-start: 5;
 }
