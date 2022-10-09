@@ -40,9 +40,22 @@ body{
     min-height: 2em;
     max-height: 10em;
     min-width: 2em;
-    background-color: rgb(197, 180, 224);
+    background-color: #c4b0e4;
     border-radius: 25px;
     margin: 0.5em;
+    text-align: center;
+    font-size: 2em;
+    
+}
+
+.pressed{
+    border-width: 5px;
+    margin: auto;
+    border-style: dotted;
+    border-color: black;
+    height: 3em;
+    width: 1.7em;
+    background-color: #aa8bdb;
 }
 
 .calcbtn.-btn{
